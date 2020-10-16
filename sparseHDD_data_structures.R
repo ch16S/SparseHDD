@@ -70,15 +70,6 @@ samples<- function(assay){
   return(rownames(assay$abundance))
 }
 
-ple_name<- function(...){
- # function to check all the sample names of each assay match the sampleinfo names
-
-}
-
-setGeneric("merge",
-           function(object){
-  if(class(object)!= "s")
-})
 
 
 sparse_SV_table<- function(database=NULL){
